@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Canadian Pressure Washing Services | Mobile Pressure Washing in Calgary &amp; Lethbridge</title>
+<meta name="description" content="Mobile pressure washing in Calgary and Lethbridge. Fleet, tractor-trailer, industrial equipment, rail car and commercial property cleaning. WCB Alberta insured. Free estimates: (403) 408-9807.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Big+Shoulders+Stencil+Display:wght@700;900&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --red:#b8120f;
+  --red-deep:#7d0c0a;
+  --cream:#f3e6cf;
+  --paper:#f8f2e6;
+  --ink:#1a0d08;
+  --steel:#1f2124;
+  --steel-2:#2b2e33;
+  --steel-3:#3a3e44;
+  --bolt:#9aa0a8;
+  --line:rgba(26,13,8,.14);
+  --display:'Big Shoulders Display',Impact,sans-serif;
+  --stencil:'Big Shoulders Stencil Display','Big Shoulders Display',sans-serif;
+  --body:'Archivo',system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);color:var(--ink);background:var(--paper);line-height:1.6;font-size:17px;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit}
+.wrap{width:min(1240px,92vw);margin-inline:auto}
+.eyebrow{font-family:var(--stencil);font-weight:700;letter-spacing:.18em;text-transform:uppercase;font-size:.85rem;color:var(--red)}
+h1,h2,h3{font-family:var(--display);font-weight:900;line-height:.92;text-transform:uppercase;letter-spacing:.005em}
+
+/* rivets */
+.riveted{position:relative}
+.riveted::before,.riveted::after{content:"";position:absolute;width:10px;height:10px;border-radius:50%;
+  background:radial-gradient(circle at 35% 30%,#e6e8eb 0 18%,#8a9097 45%,#4b4f55 75%);box-shadow:0 1px 1px rgba(0,0,0,.45);top:12px}
+.riveted::before{left:12px}.riveted::after{right:12px}
+.riveted .rv-b::before,.riveted .rv-b::after{content:"";position:absolute;width:10px;height:10px;border-radius:50%;
+  background:radial-gradient(circle at 35% 30%,#e6e8eb 0 18%,#8a9097 45%,#4b4f55 75%);box-shadow:0 1px 1px rgba(0,0,0,.45);bottom:12px}
+.riveted .rv-b::before{left:12px}.riveted .rv-b::after{right:12px}
+
+/* ===== top bar ===== */
+.topbar{background:var(--steel);color:#d9dbde;font-size:.82rem}
+.topbar .wrap{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:.5rem 0}
+.topbar a{text-decoration:none;color:#fff}
+.topbar .tb-l{display:flex;gap:1.6rem;flex-wrap:wrap}
+.topbar .tb-r{display:flex;gap:.9rem;align-items:center}
+.topbar svg{width:15px;height:15px;fill:currentColor;vertical-align:-2px;margin-right:.35rem}
+.soc{display:inline-grid;place-items:center;width:28px;height:28px;border:1px solid rgba(255,255,255,.22);border-radius:50%}
+.soc svg{margin:0}
+
+/* ===== header ===== */
+header.site{background:var(--paper);border-bottom:3px solid var(--ink);position:sticky;top:0;z-index:50}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;padding:.6rem 0}
+.logo img{height:70px;width:auto}
+nav.main{display:flex;gap:2.2rem;align-items:center}
+nav.main a{font-family:var(--display);font-weight:800;text-transform:uppercase;letter-spacing:.06em;font-size:1.15rem;text-decoration:none;position:relative}
+nav.main a.on::after,nav.main a:hover::after{content:"";position:absolute;left:0;right:0;bottom:-6px;height:3px;background:var(--red)}
+.call-btn{display:flex;align-items:center;gap:.7rem;background:var(--red);color:#fff;text-decoration:none;padding:.65rem 1.1rem .65rem .8rem;clip-path:polygon(10px 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%,0 10px)}
+.call-btn small{display:block;font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;opacity:.85}
+.call-btn b{font-family:var(--display);font-size:1.35rem;letter-spacing:.03em;line-height:1}
+.call-btn svg{width:22px;height:22px;fill:#fff}
+.burger{display:none;background:none;border:0;width:42px;height:42px;cursor:pointer}
+.burger span{display:block;height:3px;background:var(--ink);margin:6px 6px}
+
+/* ===== hero ===== */
+.hero{position:relative;background:var(--steel);color:#fff;overflow:hidden}
+.hero-bg{position:absolute;inset:0 0 0 38%;background:url(images/excavator-wash.jpg) 30% center/cover}
+.hero-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--steel) 0%,rgba(31,33,36,.75) 22%,rgba(31,33,36,.1) 55%,rgba(31,33,36,.35) 100%)}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.05fr .95fr;gap:3rem;align-items:center;padding:5.5rem 0 6rem}
+.hero h1{font-size:clamp(3.6rem,8.4vw,7.6rem);color:var(--cream)}
+.hero h1 em{font-style:normal;color:#fff;display:block;position:relative;width:max-content;max-width:100%}
+.hero h1 em::after{content:"";position:absolute;left:0;right:-14px;bottom:.06em;height:.16em;background:var(--red);z-index:-1;transform:skewX(-14deg)}
+.hero h1 .z{position:relative;z-index:1}
+.hero .lede{font-size:1.12rem;max-width:30rem;margin:1.6rem 0 2.2rem;color:#d7d9dc}
+.hero .eyebrow{color:#f0a19c;margin-bottom:1.2rem;display:flex;align-items:center;gap:.8rem}
+.hero .eyebrow::before{content:"";width:40px;height:2px;background:var(--red)}
+.hero-ctas{display:flex;gap:1rem;flex-wrap:wrap;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:.6rem;font-family:var(--display);font-weight:800;text-transform:uppercase;letter-spacing:.07em;font-size:1.1rem;padding:1rem 1.6rem;text-decoration:none;border:2px solid transparent;cursor:pointer}
+.btn-red{background:var(--red);color:#fff}
+.btn-red:hover{background:var(--red-deep)}
+.btn-ghost{border-color:rgba(255,255,255,.5);color:#fff}
+.btn-ghost:hover{background:#fff;color:var(--ink)}
+.hero-tags{display:flex;gap:.5rem;margin-top:2.6rem;flex-wrap:wrap}
+.hero-tags span{font-family:var(--stencil);font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:.85rem;border:1px solid rgba(243,230,207,.35);color:var(--cream);padding:.35rem .8rem}
+
+/* work order form */
+.order{background:var(--cream);color:var(--ink);padding:2.2rem 2rem 1.8rem;position:relative;box-shadow:0 30px 60px rgba(0,0,0,.45);transform:rotate(1.2deg);justify-self:end;width:min(440px,100%)}
+.order::before{content:"";position:absolute;left:0;right:0;top:-9px;height:10px;background:radial-gradient(circle at 8px 10px,transparent 6px,var(--cream) 6.5px) 0 0/16px 10px repeat-x}
+.order-head{display:flex;justify-content:space-between;align-items:flex-start;border-bottom:2px dashed rgba(26,13,8,.35);padding-bottom:1rem;margin-bottom:1.2rem}
+.order-head h2{font-size:2.1rem}
+.order-head h2 span{color:var(--red)}
+.order-no{font-family:var(--stencil);font-size:.8rem;letter-spacing:.14em;text-align:right;line-height:1.3;color:rgba(26,13,8,.6)}
+.order-no b{display:block;font-size:1.4rem;color:var(--red);letter-spacing:.05em}
+.order label{display:block;font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;margin:.75rem 0 .2rem;color:rgba(26,13,8,.7)}
+.order input,.order select,.order textarea{width:100%;font:inherit;font-size:.98rem;background:transparent;border:0;border-bottom:2px solid rgba(26,13,8,.4);padding:.35rem 0;color:var(--ink);outline:none;border-radius:0}
+.order select{appearance:none;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23b8120f' stroke-width='2' fill='none'/%3E%3C/svg%3E") right 4px center no-repeat}
+.order input:focus,.order select:focus,.order textarea:focus{border-color:var(--red)}
+.order .row2{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.order textarea{resize:none;height:54px}
+.order .btn{width:100%;justify-content:center;margin-top:1.4rem}
+.order .fine{font-size:.78rem;text-align:center;margin-top:.8rem;color:rgba(26,13,8,.65)}
+.stamp{position:absolute;right:-26px;bottom:72px;width:108px;height:108px;border:3px solid var(--red);border-radius:50%;display:grid;place-items:center;text-align:center;color:var(--red);font-family:var(--stencil);font-weight:900;font-size:.82rem;line-height:1.05;letter-spacing:.08em;transform:rotate(-16deg);background:rgba(243,230,207,.85)}
+.stamp b{font-size:1.5rem;display:block}
+
+/* ===== specialties ===== */
+.spec{padding:7rem 0 6rem;background:var(--paper)}
+.spec-top{display:flex;justify-content:space-between;align-items:flex-end;gap:2rem;margin-bottom:3.2rem;flex-wrap:wrap}
+.spec-top h2{font-size:clamp(3rem,6vw,5.4rem)}
+.spec-top h2 span{color:var(--red)}
+.spec-top p{max-width:26rem;color:#4a3d36}
+.spec-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:4rem;align-items:start}
+.spec-view{position:sticky;top:120px}
+.spec-frame{position:relative;aspect-ratio:4/3;overflow:hidden;background:var(--steel);clip-path:polygon(0 0,calc(100% - 46px) 0,100% 46px,100% 100%,46px 100%,0 calc(100% - 46px))}
+.spec-frame img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.05);transition:opacity .45s ease,transform .8s ease}
+.spec-frame img.on{opacity:1;transform:scale(1)}
+.spec-cap{display:flex;justify-content:space-between;align-items:center;margin-top:1rem;font-family:var(--stencil);letter-spacing:.14em;text-transform:uppercase;font-size:.85rem}
+.spec-cap b{font-size:2.6rem;color:var(--red);line-height:1}
+.spec-list{list-style:none;border-top:3px solid var(--ink)}
+.spec-list li{border-bottom:1px solid var(--line)}
+.spec-list button{all:unset;cursor:pointer;display:grid;grid-template-columns:3.4rem 1fr auto;align-items:center;gap:1rem;width:100%;padding:1.15rem 0;box-sizing:border-box}
+.spec-list .n{font-family:var(--stencil);font-weight:700;color:rgba(26,13,8,.4);font-size:1.05rem;letter-spacing:.1em}
+.spec-list .t{font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:clamp(1.5rem,2.4vw,2.05rem);line-height:1;transition:color .25s,transform .3s}
+.spec-list .g{font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:rgba(26,13,8,.5);border:1px solid var(--line);padding:.25rem .55rem}
+.spec-list li.on .t{color:var(--red);transform:translateX(8px)}
+.spec-list li.on .n{color:var(--red)}
+.spec-list li.on .g{background:var(--ink);color:var(--cream);border-color:var(--ink)}
+.spec-foot{display:flex;gap:1rem;margin-top:2.2rem;flex-wrap:wrap}
+.btn-ink{background:var(--ink);color:var(--cream)}
+.btn-ink:hover{background:var(--red)}
+.btn-line{border-color:var(--ink);color:var(--ink)}
+.btn-line:hover{background:var(--ink);color:var(--cream)}
+
+/* ===== equipment matters ===== */
+.equip{position:relative;color:#fff;background:#0f1012;overflow:hidden}
+.equip-bg{position:absolute;inset:0;background:url(images/truck-mist.jpg) center/cover;opacity:.55}
+.equip-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#0f1012 0%,rgba(15,16,18,.2) 60%,rgba(15,16,18,.6) 100%)}
+.equip .wrap{position:relative;padding:9rem 0 5rem}
+.equip .eyebrow{color:#f0a19c}
+.equip h2{font-size:clamp(3.4rem,9vw,9rem);color:var(--cream);margin:.6rem 0 1rem;max-width:12ch}
+.equip h2 span{-webkit-text-stroke:2px var(--cream);color:transparent}
+.equip-row{display:grid;grid-template-columns:1.2fr 1fr;gap:3rem;align-items:end;margin-top:3rem}
+.equip-row p.big{font-family:var(--display);font-weight:800;font-size:clamp(1.6rem,2.6vw,2.4rem);line-height:1.08;text-transform:uppercase;color:#fff;max-width:22ch}
+.equip-row p.sm{color:#c8cbcf;margin-top:1.2rem;max-width:34rem}
+.gauge{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.18)}
+.gauge div{background:rgba(15,16,18,.82);padding:1.3rem 1.2rem;backdrop-filter:blur(3px)}
+.gauge small{font-family:var(--stencil);letter-spacing:.16em;font-size:.72rem;color:#f0a19c;text-transform:uppercase}
+.gauge b{display:block;font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:1.35rem;line-height:1.05;margin-top:.3rem}
+
+/* ===== locally owned / about ===== */
+.local{padding:7rem 0;background:var(--cream);position:relative}
+.local::before{content:"";position:absolute;inset:0;background-image:repeating-linear-gradient(135deg,rgba(26,13,8,.035) 0 2px,transparent 2px 14px)}
+.local .wrap{position:relative;display:grid;grid-template-columns:.9fr 1.1fr;gap:5rem;align-items:center}
+.photo-stack{position:relative;padding-bottom:5rem}
+.photo-stack .p1{width:88%;aspect-ratio:16/10;object-fit:cover;box-shadow:0 20px 40px rgba(26,13,8,.25);border:10px solid #fff}
+.photo-stack .p2{position:absolute;right:0;bottom:0;width:50%;transform:rotate(4deg);box-shadow:0 20px 40px rgba(26,13,8,.35);border:6px solid #fff}
+.photo-stack .tape{position:absolute;width:90px;height:26px;background:rgba(243,230,207,.75);right:13%;bottom:calc(46%*1.28 - 6px);transform:rotate(-6deg);box-shadow:0 1px 2px rgba(0,0,0,.15);z-index:2}
+.local h2{font-size:clamp(2.6rem,4.8vw,4.3rem);margin:.8rem 0 1.4rem}
+.local h2 span{color:var(--red)}
+.local p{color:#3f322b;margin-bottom:1rem;max-width:36rem}
+.plates{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:2.2rem}
+.plate{background:linear-gradient(160deg,#3a3e44,#22252a);color:#fff;padding:2.2rem 1.2rem 1.6rem;min-height:170px}
+.plate svg{width:30px;height:30px;stroke:var(--cream);fill:none;stroke-width:1.6;margin-bottom:.8rem}
+.plate b{display:block;font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:1.3rem;line-height:1.02;color:var(--cream)}
+.plate small{display:block;font-size:.84rem;color:#bfc3c8;margin-top:.45rem;line-height:1.4}
+
+/* ===== service area ===== */
+.area{padding:7rem 0;background:var(--paper)}
+.area-head{display:grid;grid-template-columns:1.35fr .65fr;gap:3rem;align-items:end;margin-bottom:3rem}
+.area-head h2{font-size:clamp(2.8rem,5.4vw,4.8rem)}
+.area-head h2 span{color:var(--red)}
+.area-head p{color:#4a3d36;max-width:30rem}
+.area-board{display:grid;grid-template-columns:1.45fr 1fr;gap:1.4rem}
+.city{position:relative;overflow:hidden;color:#fff;min-height:440px;display:flex;flex-direction:column;justify-content:flex-end;padding:2.2rem}
+.city .bg{position:absolute;inset:0;background-size:cover;background-position:center}
+.city .bg::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(15,16,18,.95) 10%,rgba(15,16,18,.25) 70%)}
+.city > *:not(.bg){position:relative}
+.city .tag{position:absolute;top:1.6rem;left:2.2rem;font-family:var(--stencil);letter-spacing:.16em;font-size:.8rem;background:var(--red);padding:.3rem .7rem;text-transform:uppercase}
+.city h3{font-size:clamp(3.4rem,6vw,5.6rem);color:var(--cream)}
+.city.small h3{font-size:clamp(2.6rem,4.4vw,4rem)}
+.city ul{list-style:none;display:flex;flex-wrap:wrap;gap:.45rem;margin-top:1.2rem}
+.city li{font-size:.85rem;font-weight:600;border:1px solid rgba(255,255,255,.35);padding:.3rem .75rem}
+.city .callrow{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin-top:1.6rem;padding-top:1.2rem;border-top:1px solid rgba(255,255,255,.2);flex-wrap:wrap}
+.city .callrow a{font-family:var(--display);font-weight:800;font-size:1.6rem;text-decoration:none;color:#fff}
+.city .callrow small{font-size:.8rem;color:#c8cbcf}
+
+/* ===== offers ===== */
+.offers{padding:7rem 0;background:var(--red);color:#fff;position:relative;overflow:hidden}
+.offers::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,rgba(0,0,0,.06) 0 1px,transparent 1px 90px)}
+.offers .wrap{position:relative;display:grid;grid-template-columns:1fr 1.15fr;gap:4.5rem;align-items:center}
+.flyer{position:relative;transform:rotate(-3deg);max-width:430px;justify-self:center}
+.flyer img{box-shadow:0 30px 50px rgba(0,0,0,.4)}
+.flyer .pin{position:absolute;top:-12px;left:50%;width:26px;height:26px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff 0 12%,#2b2e33 40%,#0d0e10);transform:translateX(-50%);box-shadow:0 4px 6px rgba(0,0,0,.4)}
+.offers .eyebrow{color:var(--cream)}
+.offers h2{font-size:clamp(3rem,6vw,5.4rem);color:#fff;margin:.6rem 0 1rem}
+.offers .quote{font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:1.45rem;line-height:1.1;color:var(--cream);margin-bottom:2rem;max-width:28ch}
+.coupons{display:grid;gap:1rem}
+.coupon{display:grid;grid-template-columns:auto 1fr;background:var(--cream);color:var(--ink);position:relative}
+.coupon .stub{background:var(--ink);color:var(--cream);display:grid;place-items:center;padding:1rem 1.2rem;font-family:var(--stencil);font-weight:900;font-size:1.05rem;letter-spacing:.1em;writing-mode:vertical-rl;transform:rotate(180deg);border-left:2px dashed rgba(243,230,207,.45)}
+.coupon .bd{padding:1.2rem 1.4rem;display:flex;justify-content:space-between;align-items:center;gap:1rem}
+.coupon b{display:block;font-family:var(--display);font-weight:900;text-transform:uppercase;font-size:1.7rem;line-height:1}
+.coupon small{color:#5a4b43;font-size:.9rem}
+.coupon .ar{width:44px;height:44px;flex:none;border-radius:50%;border:2px solid var(--red);display:grid;place-items:center;color:var(--red);text-decoration:none;font-weight:700}
+.coupon::before,.coupon::after{content:"";position:absolute;left:calc(3.15rem - 9px);width:18px;height:18px;border-radius:50%;background:var(--red)}
+.coupon::before{top:-9px}.coupon::after{bottom:-9px}
+
+/* ===== job site photos ===== */
+.jobs{padding:6rem 0 2rem;background:var(--steel);color:#fff}
+.jobs-head{display:flex;justify-content:space-between;align-items:flex-end;gap:2rem;margin-bottom:2.4rem;flex-wrap:wrap}
+.jobs-head h2{font-size:clamp(2.6rem,5vw,4.4rem);color:var(--cream)}
+.jobs-head a{color:var(--cream);font-family:var(--display);font-weight:800;text-transform:uppercase;letter-spacing:.08em;text-decoration:none;border-bottom:2px solid var(--red);padding-bottom:.2rem}
+.film{display:grid;grid-template-columns:1.3fr .8fr 1fr;grid-template-rows:260px 260px;gap:.8rem}
+.film figure{position:relative;overflow:hidden;background:var(--steel-2)}
+.film figure:first-child{grid-row:span 2}
+.film figure:nth-child(4){grid-column:span 2}
+.film img{width:100%;height:100%;object-fit:cover;transition:transform .7s}
+.film figure:hover img{transform:scale(1.05)}
+.film figcaption{position:absolute;left:0;bottom:0;background:var(--red);font-family:var(--stencil);font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;padding:.35rem .7rem}
+
+/* ===== big call ===== */
+.bigcall{background:var(--steel);color:#fff;padding:5rem 0 6rem;overflow:hidden}
+.bigcall .wrap{border-top:1px solid rgba(255,255,255,.15);padding-top:4rem}
+.bigcall p{font-family:var(--stencil);letter-spacing:.2em;text-transform:uppercase;color:#f0a19c;font-size:.9rem}
+.bigcall a.num{display:block;font-family:var(--display);font-weight:900;font-size:clamp(4rem,14vw,13rem);line-height:.9;color:var(--cream);text-decoration:none;letter-spacing:-.01em;margin:.6rem 0 1.4rem;transition:color .3s}
+.bigcall a.num:hover{color:#fff}
+.bigcall a.num span{color:var(--red)}
+.bigcall .sub{display:flex;justify-content:space-between;gap:2rem;flex-wrap:wrap;align-items:center}
+.bigcall .sub h3{font-size:clamp(1.8rem,3vw,2.6rem);color:#fff}
+.bigcall .sub a.mail{color:#c8cbcf;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.3)}
+
+/* ===== footer ===== */
+footer{background:#121315;color:#bfc3c8;font-size:.93rem}
+.ft-top{display:grid;grid-template-columns:1.3fr .7fr 1.2fr 1fr;gap:3rem;padding:4.5rem 0 3rem}
+.ft-logo{background:var(--cream);display:inline-block;padding:.7rem 1rem;margin-bottom:1.2rem}
+.ft-logo img{height:64px}
+footer h4{font-family:var(--display);font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:#fff;font-size:1.15rem;margin-bottom:1rem}
+footer ul{list-style:none;display:grid;gap:.45rem}
+footer a{text-decoration:none}
+footer a:hover{color:#fff}
+.ft-areas{display:block;columns:2;column-gap:1.2rem}
+.ft-areas li{margin-bottom:.4rem}
+.ft-soc{display:flex;gap:.6rem;margin-top:1.2rem}
+.ft-soc a{display:grid;place-items:center;width:38px;height:38px;border:1px solid rgba(255,255,255,.22)}
+.ft-soc svg{width:16px;height:16px;fill:#fff}
+.ft-bot{border-top:1px solid rgba(255,255,255,.1);padding:1.4rem 0;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font-size:.85rem}
+.ft-bot a{color:#fff;border-bottom:1px solid var(--red)}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(26px);transition:opacity .8s ease,transform .8s ease}
+.rv.in{opacity:1;transform:none}
+
+/* mobile call fab */
+.fab{display:none}
+
+/* ===== responsive ===== */
+@media (max-width:1080px){
+  nav.main{gap:1.4rem}
+  .hero .wrap{grid-template-columns:1fr;padding:4rem 0 5rem}
+  .hero-bg{inset:0}
+  .hero-bg::after{background:linear-gradient(180deg,rgba(31,33,36,.92),rgba(31,33,36,.7) 50%,rgba(31,33,36,.95))}
+  .order{justify-self:start;transform:none}
+  .stamp{right:10px;bottom:auto;top:-40px}
+  .spec-grid{grid-template-columns:1fr;gap:2rem}
+  .spec-view{position:relative;top:0}
+  .equip-row,.local .wrap,.offers .wrap,.area-head{grid-template-columns:1fr;gap:2.5rem}
+  .area-board{grid-template-columns:1fr}
+  .ft-top{grid-template-columns:1fr 1fr}
+}
+@media (max-width:820px){
+  .topbar .tb-l span.hide-m{display:none}
+  nav.main,.call-btn{display:none}
+  .burger{display:block}
+  nav.main.open{display:flex;flex-direction:column;position:absolute;left:0;right:0;top:100%;background:var(--paper);padding:1.4rem 4vw;border-bottom:3px solid var(--ink);gap:1rem;align-items:flex-start}
+  .logo img{height:54px}
+  .plates{grid-template-columns:1fr}
+  .film{grid-template-columns:1fr 1fr;grid-template-rows:200px 200px 200px}
+  .film figure:first-child{grid-row:span 1;grid-column:span 2}
+  .film figure:nth-child(4){grid-column:span 2}
+  .fab{display:flex;position:fixed;left:4vw;right:4vw;bottom:14px;z-index:60;justify-content:center;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+  .ft-top{grid-template-columns:1fr}
+  .order .row2{grid-template-columns:1fr}
+  .hero h1{font-size:clamp(2.6rem,12.5vw,4rem)}
+  .hero h1 em{width:auto}
+  .stamp{width:84px;height:84px;font-size:.66rem;top:auto;bottom:-30px;right:-6px}
+  .stamp b{font-size:1.15rem}
+  .order{padding-bottom:3rem}
+  .topbar .tb-l a[href^="mailto"]{display:none}
+  .hero-ctas .btn{width:100%;justify-content:center}
+  body{padding-bottom:70px}
+}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}*{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <div class="tb-l">
+      <a href="tel:4034089807"><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.4 11.4 0 003.6.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.25 1z"/></svg>(403) 408-9807</a>
+      <a href="mailto:info@canadianpressurewashing.ca"><svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5z"/></svg>info@canadianpressurewashing.ca</a>
+      <span class="hide-m">Locally owned &amp; operated · Calgary &amp; Lethbridge</span>
+    </div>
+    <div class="tb-r">
+      <a class="soc" href="https://web.facebook.com/permalink.php?story_fbid=pfbid029qwgaxoBE8m5XeuRSPVpWeRh3QFRHRDgxNpW8jcWtL3BTXHKSDwLRHBCS4K1bSKrl&amp;id=100089856097235" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M14 8V6.2c0-.8.2-1.2 1.4-1.2H17V2h-2.6C11.5 2 10.6 3.5 10.6 6v2H8.5v3h2.1v11H14V11h2.6l.4-3z"/></svg></a>
+      <a class="soc" href="https://www.instagram.com/p/Cn1E-C7oJGU/?igshid=YmMyMTA2M2Y%3D" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 7.3a4.7 4.7 0 100 9.4 4.7 4.7 0 000-9.4zm0 7.7a3 3 0 110-6 3 3 0 010 6zM17 5.9a1.1 1.1 0 100 2.2 1.1 1.1 0 000-2.2zM21.9 7.9c-.1-1.6-.4-3-1.6-4.2S17.7 2.2 16.1 2.1C14.4 2 9.6 2 7.9 2.1 6.3 2.2 4.9 2.5 3.7 3.7S2.2 6.3 2.1 7.9C2 9.6 2 14.4 2.1 16.1c.1 1.6.4 3 1.6 4.2s2.6 1.5 4.2 1.6c1.7.1 6.5.1 8.2 0 1.6-.1 3-.4 4.2-1.6s1.5-2.6 1.6-4.2c.1-1.7.1-6.5 0-8.2zm-2.2 10a3.3 3.3 0 01-1.9 1.9c-1.3.5-4.4.4-5.8.4s-4.5.1-5.8-.4a3.3 3.3 0 01-1.9-1.9c-.5-1.3-.4-4.4-.4-5.8s-.1-4.5.4-5.8a3.3 3.3 0 011.9-1.9C7.5 3.9 10.6 4 12 4s4.5-.1 5.8.4a3.3 3.3 0 011.9 1.9c.5 1.3.4 4.4.4 5.8s.1 4.5-.4 5.8z"/></svg></a>
+    </div>
+  </div>
+</div>
+
+<header class="site">
+  <div class="wrap">
+    <a class="logo" href="https://canadianpressurewashing.ca/"><img src="images/canadian-pressure-washing-logo.png" alt="Canadian Pressure Washing Services"></a>
+    <nav class="main" id="nav">
+      <a class="on" href="https://canadianpressurewashing.ca/">Home</a>
+      <a href="https://canadianpressurewashing.ca/services/">Services</a>
+      <a href="https://canadianpressurewashing.ca/gallery/">Gallery</a>
+      <a href="https://canadianpressurewashing.ca/contact/">Contact</a>
+    </nav>
+    <a class="call-btn" href="tel:4034089807"><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.4 11.4 0 003.6.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.25 1z"/></svg><span><small>Free estimate</small><b>(403) 408-9807</b></span></a>
+    <button class="burger" aria-label="Menu" onclick="document.getElementById('nav').classList.toggle('open')"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Mobile pressure washing · Calgary &amp; Lethbridge</p>
+      <h1><span class="z">You need it clean,</span> <em><span class="z">we clean it.</span></em></h1>
+      <p class="lede">Efficient, dependable pressure washing for commercial and industrial property and equipment. Fleets, tractor-trailers, heavy equipment, parkades and more, cleaned on site by trained technicians.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-red" href="#estimate">Get a free estimate</a>
+        <a class="btn btn-ghost" href="tel:4034089807">Call (403) 408-9807</a>
+      </div>
+      <div class="hero-tags"><span>Commercial</span><span>Residential</span><span>Fleet</span></div>
+    </div>
+
+    <form class="order" id="estimate" action="mailto:info@canadianpressurewashing.ca" method="post" enctype="text/plain">
+      <div class="order-head">
+        <h2>Free <span>estimate</span><br>work order</h2>
+        <div class="order-no">No.<b>CPWS</b>Calgary · Lethbridge</div>
+      </div>
+      <div class="row2">
+        <div><label for="f-name">Name</label><input id="f-name" name="Name" required></div>
+        <div><label for="f-phone">Phone</label><input id="f-phone" name="Phone" type="tel" required></div>
+      </div>
+      <label for="f-email">Email</label><input id="f-email" name="Email" type="email">
+      <div class="row2">
+        <div><label for="f-svc">Job type</label>
+          <select id="f-svc" name="Job type">
+            <option>Mobile pressure washing</option><option>Highway tractor-trailer cleaning</option><option>Fleet &amp; industrial equipment</option><option>Commercial property cleaning</option><option>Sidewalks &amp; driveways</option><option>Parking lots &amp; parkades</option><option>Drive-thrus</option><option>Rail car cleaning</option><option>Graffiti removal</option>
+          </select></div>
+        <div><label for="f-city">Location</label>
+          <select id="f-city" name="Location">
+            <option>Calgary</option><option>Lethbridge</option><option>Airdrie</option><option>Brooks</option><option>Chestermere</option><option>Coaldale</option><option>Coalhurst</option><option>Cochrane</option><option>Fort Macleod</option><option>High River</option><option>Medicine Hat</option><option>Okotoks</option><option>Red Deer</option><option>Strathmore</option><option>Taber</option>
+          </select></div>
+      </div>
+      <label for="f-msg">Tell us about the job</label><textarea id="f-msg" name="Details"></textarea>
+      <button class="btn btn-red" type="submit">Request my free estimate</button>
+      <p class="fine">Prefer to talk? Call <a href="tel:4034089807"><b>(403) 408-9807</b></a></p>
+      <div class="stamp"><div><b>WCB</b>Alberta<br>insured</div></div>
+    </form>
+  </div>
+</section>
+
+<!-- SPECIALTIES -->
+<section class="spec" id="services">
+  <div class="wrap">
+    <div class="spec-top rv">
+      <div>
+        <p class="eyebrow">Specialties</p>
+        <h2>Nine jobs.<br><span>One crew</span> that shows up.</h2>
+      </div>
+      <p>From highway rigs and rail cars to parkades and drive-thrus, our mobile units come to you. Pick a specialty to see it in action.</p>
+    </div>
+
+    <div class="spec-grid">
+      <div class="spec-view rv">
+        <div class="spec-frame" id="specFrame">
+          <img class="on" src="images/excavator-wash.jpg" alt="Mobile pressure washing heavy equipment on site">
+          <img src="images/truck-mist.jpg" alt="Highway tractor-trailer pressure washing">
+          <img src="images/fleet-trucks-technician.jpg" alt="Technician pressure washing a fleet of trucks">
+          <img src="images/job-trailer.jpg" alt="Commercial property pressure washing">
+          <img src="images/fleet-trucks-technician.jpg" alt="Sidewalk and driveway pressure washing">
+          <img src="images/truck-mist.jpg" alt="Parking lot and parkade pressure washing">
+          <img src="images/excavator-wash.jpg" alt="Drive-thru pressure washing">
+          <img src="images/job-excavator.jpg" alt="Rail car cleaning">
+          <img src="images/fleet-trucks-technician.jpg" alt="Graffiti removal">
+        </div>
+        <div class="spec-cap"><span id="specName">Mobile pressure washing</span><b id="specNo">01</b></div>
+      </div>
+
+      <div>
+        <ul class="spec-list" id="specList">
+          <li class="on"><button><span class="n">01</span><span class="t">Mobile pressure washing</span><span class="g">On site</span></button></li>
+          <li><button><span class="n">02</span><span class="t">Highway tractor-trailer cleaning</span><span class="g">Fleet</span></button></li>
+          <li><button><span class="n">03</span><span class="t">Fleet &amp; industrial equipment</span><span class="g">Fleet</span></button></li>
+          <li><button><span class="n">04</span><span class="t">Commercial property cleaning</span><span class="g">Property</span></button></li>
+          <li><button><span class="n">05</span><span class="t">Sidewalks &amp; driveways</span><span class="g">Property</span></button></li>
+          <li><button><span class="n">06</span><span class="t">Parking lots &amp; parkades</span><span class="g">Property</span></button></li>
+          <li><button><span class="n">07</span><span class="t">Drive-thrus</span><span class="g">Property</span></button></li>
+          <li><button><span class="n">08</span><span class="t">Rail car cleaning</span><span class="g">Industrial</span></button></li>
+          <li><button><span class="n">09</span><span class="t">Graffiti removal</span><span class="g">Property</span></button></li>
+        </ul>
+        <div class="spec-foot">
+          <a class="btn btn-ink" href="https://canadianpressurewashing.ca/services/">All services</a>
+          <a class="btn btn-line" href="#estimate">Get a free estimate</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EQUIPMENT MATTERS -->
+<section class="equip">
+  <div class="equip-bg"></div>
+  <div class="wrap">
+    <p class="eyebrow rv">Fleet &amp; industrial</p>
+    <h2 class="rv">Your equipment <span>matters.</span></h2>
+    <div class="equip-row">
+      <div class="rv">
+        <p class="big">We'll give your equipment our top cleaning service.</p>
+        <p class="sm">Heavy equipment, highway rigs and work trucks take a beating. Our crew handles the grime on site, so your fleet keeps moving and keeps looking the part.</p>
+      </div>
+      <div class="gauge rv">
+        <div><small>01</small><b>Highway tractor-trailers</b></div>
+        <div><small>02</small><b>Fleet vehicles</b></div>
+        <div><small>03</small><b>Industrial equipment</b></div>
+        <div><small>04</small><b>Rail cars</b></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LOCALLY OWNED -->
+<section class="local">
+  <div class="wrap">
+    <div class="photo-stack rv">
+      <img class="p1" src="images/fleet-trucks-technician.jpg" alt="Canadian Pressure Washing Services technician cleaning fleet trucks">
+            <img class="p2" src="images/job-excavator.jpg" alt="Canadian Pressure Washing Services crew cleaning a CAT excavator">
+    </div>
+    <div class="rv">
+      <p class="eyebrow">Locally owned &amp; operated</p>
+      <h2>Mobile pressure washing in <span>Calgary</span> and <span>Lethbridge</span></h2>
+      <p>Canadian Pressure Washing Services is a local, owner-run company cleaning commercial property, heavy equipment and fleets across Southern Alberta.</p>
+      <p>We keep it simple: well-trained people, work done on time, and prices that make sense for your business.</p>
+      <div class="plates">
+        <div class="plate riveted"><span class="rv-b"></span>
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="7" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+          <b>Well-trained technicians</b><small>Timely work at competitive prices.</small></div>
+        <div class="plate riveted"><span class="rv-b"></span>
+          <svg viewBox="0 0 24 24"><path d="M5 19c8 0 14-6 14-15C10 4 5 9 5 15v4zM5 19l7-7"/></svg>
+          <b>Eco-friendly products</b><small>Environmentally friendly soaps and cleaners.</small></div>
+        <div class="plate riveted"><span class="rv-b"></span>
+          <svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg>
+          <b>WCB Alberta insured</b><small>Covered, insured and bonded.</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICE AREA -->
+<section class="area" id="area">
+  <div class="wrap">
+    <div class="area-head rv">
+      <div>
+        <p class="eyebrow">Service area</p>
+        <h2>Reliable pressure washing in the <span>Calgary</span> &amp; Lethbridge area</h2>
+      </div>
+      <p>Based in Calgary and Lethbridge, our mobile crews cover the surrounding communities too. Not sure if we reach you? Give us a call.</p>
+    </div>
+    <div class="area-board">
+      <div class="city rv">
+        <div class="bg" style="background-image:url(images/excavator-wash.jpg)"></div>
+        <span class="tag">Home base</span>
+        <h3>Calgary</h3>
+        <ul><li>Airdrie</li><li>Chestermere</li><li>Cochrane</li><li>Okotoks</li><li>High River</li><li>Strathmore</li><li>Red Deer</li></ul>
+        <div class="callrow"><a href="tel:4034089807">(403) 408-9807</a><small>Free estimates across the Calgary region</small></div>
+      </div>
+      <div class="city small rv">
+        <div class="bg" style="background-image:url(images/truck-mist.jpg)"></div>
+        <span class="tag">Southern Alberta</span>
+        <h3>Lethbridge</h3>
+        <ul><li>Coaldale</li><li>Coalhurst</li><li>Fort Macleod</li><li>Taber</li><li>Brooks</li><li>Medicine Hat</li></ul>
+        <div class="callrow"><a href="tel:4034089807">(403) 408-9807</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SPECIAL OFFERS -->
+<section class="offers" id="offers">
+  <div class="wrap">
+    <div class="flyer rv"><span class="pin"></span><img src="images/cpws-flyer.jpg" alt="Canadian Pressure Washing Services: we do it for less and we do it right"></div>
+    <div class="rv">
+      <p class="eyebrow">Special offers</p>
+      <h2>Clean for less.</h2>
+      <p class="quote">We do it for less &amp; we do it right. Let us do your dirty work!</p>
+      <div class="coupons">
+        <div class="coupon"><span class="stub">NEW</span><div class="bd"><div><b>New client discounts</b><small>First job with us? Ask about your discount.</small></div><a class="ar" href="#estimate" aria-label="Get estimate">→</a></div></div>
+        <div class="coupon"><span class="stub">REG</span><div class="bd"><div><b>Weekly &amp; biweekly specials</b><small>Regular cleaning schedules at special rates.</small></div><a class="ar" href="#estimate" aria-label="Get estimate">→</a></div></div>
+        <div class="coupon"><span class="stub">FREE</span><div class="bd"><div><b>Free estimate</b><small>On any pressure washing job.</small></div><a class="ar" href="tel:4034089807" aria-label="Call">→</a></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- JOB SITE -->
+<section class="jobs">
+  <div class="wrap">
+    <div class="jobs-head rv">
+      <div><p class="eyebrow" style="color:#f0a19c">Gallery</p><h2>From the job site</h2></div>
+      <a href="https://canadianpressurewashing.ca/gallery/">View full gallery</a>
+    </div>
+    <div class="film rv">
+      <figure><img src="images/fleet-trucks-technician.jpg" alt="Fleet truck pressure washing"><figcaption>Fleet</figcaption></figure>
+      <figure><img src="images/job-excavator.jpg" alt="Excavator pressure washing on site"><figcaption>Heavy equipment</figcaption></figure>
+      <figure><img src="images/job-trailer.jpg" alt="Trailer pressure washing on site"><figcaption>Trailer</figcaption></figure>
+      <figure><img src="images/excavator-wash.jpg" alt="Heavy equipment cleaning" style="object-position:center 60%"><figcaption>Industrial equipment</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- BIG CALL -->
+<section class="bigcall">
+  <div class="wrap rv">
+    <p>You need it clean, we clean it.</p>
+    <a class="num" href="tel:4034089807">403<span>·</span>408<span>·</span>9807</a>
+    <div class="sub">
+      <h3>Get a free estimate on your pressure washing job</h3>
+      <a class="mail" href="mailto:info@canadianpressurewashing.ca">info@canadianpressurewashing.ca</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="ft-top">
+      <div>
+        <a class="ft-logo" href="https://canadianpressurewashing.ca/"><img src="images/canadian-pressure-washing-logo.png" alt="Canadian Pressure Washing Services"></a>
+        <p>Mobile pressure washing for commercial and industrial property, fleets and equipment in Calgary, Lethbridge and area.</p>
+        <div class="ft-soc">
+          <a href="https://web.facebook.com/permalink.php?story_fbid=pfbid029qwgaxoBE8m5XeuRSPVpWeRh3QFRHRDgxNpW8jcWtL3BTXHKSDwLRHBCS4K1bSKrl&amp;id=100089856097235" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M14 8V6.2c0-.8.2-1.2 1.4-1.2H17V2h-2.6C11.5 2 10.6 3.5 10.6 6v2H8.5v3h2.1v11H14V11h2.6l.4-3z"/></svg></a>
+          <a href="https://www.instagram.com/p/Cn1E-C7oJGU/?igshid=YmMyMTA2M2Y%3D" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 7.3a4.7 4.7 0 100 9.4 4.7 4.7 0 000-9.4zm0 7.7a3 3 0 110-6 3 3 0 010 6zM17 5.9a1.1 1.1 0 100 2.2 1.1 1.1 0 000-2.2zM21.9 7.9c-.1-1.6-.4-3-1.6-4.2S17.7 2.2 16.1 2.1C14.4 2 9.6 2 7.9 2.1 6.3 2.2 4.9 2.5 3.7 3.7S2.2 6.3 2.1 7.9C2 9.6 2 14.4 2.1 16.1c.1 1.6.4 3 1.6 4.2s2.6 1.5 4.2 1.6c1.7.1 6.5.1 8.2 0 1.6-.1 3-.4 4.2-1.6s1.5-2.6 1.6-4.2c.1-1.7.1-6.5 0-8.2z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="https://canadianpressurewashing.ca/">Home</a></li>
+          <li><a href="https://canadianpressurewashing.ca/services/">Services</a></li>
+          <li><a href="https://canadianpressurewashing.ca/gallery/">Gallery</a></li>
+          <li><a href="https://canadianpressurewashing.ca/contact/">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Service area</h4>
+        <ul class="ft-areas"><li>Calgary</li><li>Lethbridge</li><li>Airdrie</li><li>Brooks</li><li>Chestermere</li><li>Coaldale</li><li>Coalhurst</li><li>Cochrane</li><li>Fort Macleod</li><li>High River</li><li>Medicine Hat</li><li>Okotoks</li><li>Red Deer</li><li>Strathmore</li><li>Taber</li></ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:4034089807">(403) 408-9807</a></li>
+          <li><a href="mailto:info@canadianpressurewashing.ca">info@canadianpressurewashing.ca</a></li>
+          <li><a href="https://canadianpressurewashing.ca/">canadianpressurewashing.ca</a></li>
+          <li>WCB Alberta insured</li>
+        </ul>
+      </div>
+    </div>
+    <div class="ft-bot">
+      <span>© Copyright 2022 – Canadian Pressure Washing Services. All rights reserved.</span>
+      <span><a href="https://cleaningdigital.ca/" target="_blank" rel="noopener">Design by Cleaning Digital.</a></span>
+    </div>
+  </div>
+</footer>
+
+<a class="btn btn-red fab" href="tel:4034089807">Call for a free estimate · (403) 408-9807</a>
+
+<script>
+// specialties switcher
+(function(){
+  const items=[...document.querySelectorAll('#specList li')];
+  const imgs=[...document.querySelectorAll('#specFrame img')];
+  const nm=document.getElementById('specName'), no=document.getElementById('specNo');
+  function set(i){
+    items.forEach((li,k)=>li.classList.toggle('on',k===i));
+    imgs.forEach((im,k)=>im.classList.toggle('on',k===i));
+    nm.textContent=items[i].querySelector('.t').textContent;
+    no.textContent=items[i].querySelector('.n').textContent;
+  }
+  items.forEach((li,i)=>{li.addEventListener('mouseenter',()=>set(i));li.querySelector('button').addEventListener('click',()=>set(i));});
+})();
+// reveal on scroll
+(function(){
+  const els=document.querySelectorAll('.rv');
+  if(!('IntersectionObserver' in window)){els.forEach(e=>e.classList.add('in'));return;}
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}}),{threshold:.12});
+  els.forEach(e=>io.observe(e));
+})();
+</script>
+</body>
+</html>
